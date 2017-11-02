@@ -15,7 +15,8 @@ object Runner {
     ("LogAnalysisSetup2", (context => LogAnalysisSetup2.run(context), Map.empty)),
     ("LogAnalysisSetup3", (context => LogAnalysisSetup3.run(context), Map.empty)),
     ("PermutationsSetup", (context => PermutationsSetup.run(context), Map.empty)),
-    ("UsersPasswordsSetup", (context => UsersPasswordsSetup.run(context), Map.empty))
+    ("UsersPasswordsSetup", (context => UsersPasswordsSetup.run(context), Map.empty)),
+    ("SparkTestSetup", (context => SparkTestSetup.run(context), Map.empty))
   )
 
 
