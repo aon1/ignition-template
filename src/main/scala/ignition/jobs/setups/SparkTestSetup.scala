@@ -1,7 +1,5 @@
 package ignition.jobs.setups
 
-import ignition.jobs.WordCountJob
-
 import org.apache.spark.sql._
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types.{StructType, StructField, StringType, LongType}
